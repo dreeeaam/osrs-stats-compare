@@ -1,0 +1,33 @@
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body align="center"><br>
+	<div class="header-content">
+		<h1>COMPARE STATS</h1>
+		<p>Type a players name in and hit add to compare stats.</p>
+		<div class="search-bar">
+			<form action="retrieve-player.php">
+				<input type="text" name="player">
+				<button id="submit-player">+</button>
+			</form>
+		</div>
+	</div><br><br>
+	<div class="main-content">
+		<div class="players-stats">
+			<h2 id="player-name">player_name</h2>
+
+			<table class="players-stats-table" align="center" style="border: solid 1px">
+				<tr class="stat-column" style="text-align: left;">			
+					<td width="20%">Skill</td>
+					<td width="10%">Level</td>
+					<td width="30%">Experience</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+
+</html>
