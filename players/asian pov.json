@@ -1,0 +1,146 @@
+[
+    {
+        "skill": "Overall\r\n",
+        "rank": "36210",
+        "level": "2039",
+        "experience": "169958630"
+    },
+    {
+        "skill": "Attack\r\n",
+        "rank": "71855",
+        "level": "99",
+        "experience": "13415848"
+    },
+    {
+        "skill": "Defence\r\n",
+        "rank": "106172",
+        "level": "95",
+        "experience": "8866931"
+    },
+    {
+        "skill": "Strength\r\n",
+        "rank": "66971",
+        "level": "99",
+        "experience": "14774441"
+    },
+    {
+        "skill": "Hitpoints\r\n",
+        "rank": "37140",
+        "level": "99",
+        "experience": "24429042"
+    },
+    {
+        "skill": "Ranged\r\n",
+        "rank": "49255",
+        "level": "99",
+        "experience": "17446665"
+    },
+    {
+        "skill": "Prayer\r\n",
+        "rank": "31636",
+        "level": "94",
+        "experience": "8226912"
+    },
+    {
+        "skill": "Magic\r\n",
+        "rank": "27345",
+        "level": "99",
+        "experience": "15630158"
+    },
+    {
+        "skill": "Cooking\r\n",
+        "rank": "189794",
+        "level": "83",
+        "experience": "2863267"
+    },
+    {
+        "skill": "Woodcutting\r\n",
+        "rank": "158143",
+        "level": "80",
+        "experience": "2107225"
+    },
+    {
+        "skill": "Fletching\r\n",
+        "rank": "162254",
+        "level": "85",
+        "experience": "3346734"
+    },
+    {
+        "skill": "Fishing\r\n",
+        "rank": "83690",
+        "level": "87",
+        "experience": "4192733"
+    },
+    {
+        "skill": "Firemaking\r\n",
+        "rank": "9035",
+        "level": "99",
+        "experience": "14347696"
+    },
+    {
+        "skill": "Crafting\r\n",
+        "rank": "85670",
+        "level": "80",
+        "experience": "2087336"
+    },
+    {
+        "skill": "Smithing\r\n",
+        "rank": "65247",
+        "level": "83",
+        "experience": "2673433"
+    },
+    {
+        "skill": "Mining\r\n",
+        "rank": "62747",
+        "level": "82",
+        "experience": "2579120"
+    },
+    {
+        "skill": "Herblore\r\n",
+        "rank": "33071",
+        "level": "90",
+        "experience": "5429927"
+    },
+    {
+        "skill": "Agility\r\n",
+        "rank": "59126",
+        "level": "80",
+        "experience": "2101054"
+    },
+    {
+        "skill": "Thieving\r\n",
+        "rank": "83090",
+        "level": "80",
+        "experience": "2036699"
+    },
+    {
+        "skill": "Slayer\r\n",
+        "rank": "19723",
+        "level": "99",
+        "experience": "13412105"
+    },
+    {
+        "skill": "Farming\r\n",
+        "rank": "76636",
+        "level": "84",
+        "experience": "3177729"
+    },
+    {
+        "skill": "Runecrafting\r\n",
+        "rank": "40144",
+        "level": "80",
+        "experience": "2083843"
+    },
+    {
+        "skill": "Hunter\r\n",
+        "rank": "86697",
+        "level": "80",
+        "experience": "1990024"
+    },
+    {
+        "skill": "Contruction",
+        "rank": "49276",
+        "level": "83",
+        "experience": "2739708"
+    }
+]

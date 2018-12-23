@@ -1,9 +1,41 @@
 html, body {
-	font-family: "Trebuchet MS";
+	font-family: "Trebuchet Ms";
 }
-.player-stats-table {
+.main-content {
+	margin: auto;
+	width: 100%;
+}
+.box {
+	width: 400px;
+	height: 500px;
+	background-color: grey;
+	display: inline-block;
+	margin-left: 20px;
+	padding-left: 10px;
+	float: left;
+}
 
+.create-table {
+	color: black;
+	font-size: 28px;
 }
-.stat-title {
-	
+
+
+.most-viewed-table {
+	width: 97%;
+	background-color: #eeeeee;
+}
+.most-viewed-table td {
+	border-bottom: solid;
+	height: 40px;
+}
+
+.player {
+	display: inline-block;
+	background-color: grey;
+	width: 20%;
+	height: auto;
+}
+.player-table td {
+	width: 25%;
 }

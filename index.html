@@ -4,30 +4,49 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
-<body align="center"><br>
-	<div class="header-content">
-		<h1>COMPARE STATS</h1>
-		<p>Type a players name in and hit add to compare stats.</p>
-		<div class="search-bar">
-			<form action="retrieve-player.php">
-				<input type="text" name="player">
-				<button id="submit-player">+</button>
+<body>
+	<div class="main-content">
+		<h1>OldSchool Compare</h1>
+		<p>You can create a group here, add up to 4 people and make sure to get the names correct!</p>
+		<div class="box">
+			<h1>Create Group</h1>
+			<form class="create-group" action="create-group.php">
+				<table class="create-table">
+					<tr><td>Group Name:</td>
+						<td><input type="text" name="group-name"></td></tr>
+					<tr><td>Player 1:</td>
+						<td><input type="text" name="player1"></td></tr>
+					<tr><td>Player 2:</td>
+						<td><input type="text" name="player2"></td></tr>
+					<tr><td>Player 3:</td>
+						<td><input type="text" name="player3"></td></tr>
+					<tr><td>Player 4:</td>
+						<td><input type="text" name="player4"></td></tr>
+					<tr><td><br><button>Create Group</button></td></tr>
+				</table>
 			</form>
 		</div>
-	</div><br><br>
-	<div class="main-content">
-		<div class="players-stats">
-			<h2 id="player-name">player_name</h2>
 
-			<table class="players-stats-table" align="center" style="border: solid 1px">
-				<tr class="stat-column" style="text-align: left;">			
-					<td width="20%">Skill</td>
-					<td width="10%">Level</td>
-					<td width="30%">Experience</td>
-				</tr>
-			</table>
+		<div class="box">
+			<h1>View Existing</h1>
+			<p>You can view existing groups by entering a group name.</p>
+			<form action="group.php">
+				<input type="text" name="view-group"><br><br>
+			</form>
+
+			<h1>Most viewed groups</h1>
+			<div class="most-viewed">
+				<table class="most-viewed-table">
+					<tr><td>Group 1</td><td>Views</td></tr>
+					<tr><td>Group 2</td><td>Views</td></tr>
+					<tr><td>Group 3</td><td>Views</td></tr>
+					<tr><td>Group 4</td><td>Views</td></tr>
+					<tr><td>Group 5</td><td>Views</td></tr>
+				</table>
+			</div>
 		</div>
 	</div>
 </body>
 
 </html>
+
