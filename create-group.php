@@ -29,4 +29,6 @@ for($x = 0; $x < count($players); $x++) {
 	createJson($players[$x]);
 }
 
+header('Location: http://localhost/stats_compare/group.php?view-group=' . $group_name);
+
 ?>

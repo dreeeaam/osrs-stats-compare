@@ -6,44 +6,44 @@
 
 <body>
 	<div class="main-content">
-		<h1>OldSchool Compare</h1>
-		<p>You can create a group here, add up to 4 people and make sure to get the names correct!</p>
+		<h1 class="title">OS-COMPARE</h1>
+		<p>Welcome to os-compare. On this site, you can create a group of Old School Runescape accounts and compare the levels 
+		and experience with ease. This will be suitable for Group Ironman so you can track your groups progress.</p>
 		<div class="box">
-			<h1>Create Group</h1>
+			<h2>Create Group</h2>
+			<p>Enter a group name and add up to 4 players.<br>
+			Please double check spelling of names.</p>
 			<form class="create-group" action="create-group.php">
 				<table class="create-table">
-					<tr><td>Group Name:</td>
-						<td><input type="text" name="group-name"></td></tr>
-					<tr><td>Player 1:</td>
-						<td><input type="text" name="player1"></td></tr>
-					<tr><td>Player 2:</td>
-						<td><input type="text" name="player2"></td></tr>
-					<tr><td>Player 3:</td>
-						<td><input type="text" name="player3"></td></tr>
-					<tr><td>Player 4:</td>
-						<td><input type="text" name="player4"></td></tr>
+					<tr><td>Group Name:</td></tr>
+					<tr><td><input type="text" class="text-box" name="group-name"></td></tr>
+					<tr><td>Player 1:</td></tr>
+					<tr><td><input type="text" class="text-box" name="player1"></td></tr>
+					<tr><td>Player 2:</td></tr>
+					<tr><td><input type="text" class="text-box" name="player2"></td></tr>
+					<tr><td>Player 3:</td></tr>
+					<tr><td><input type="text" class="text-box" name="player3"></td></tr>
+					<tr><td>Player 4:</td></tr>
+					<tr><td><input type="text" class="text-box" name="player4"></td></tr>
 					<tr><td><br><button>Create Group</button></td></tr>
 				</table>
 			</form>
 		</div>
 
 		<div class="box">
-			<h1>View Existing</h1>
-			<p>You can view existing groups by entering a group name.</p>
-			<form action="group.php">
-				<input type="text" name="view-group"><br><br>
-			</form>
+			<h2>View Existing</h2>
+			<p>If you know the name of the group you are<br>
+			   wanting to view, type it in here.<br><br>
 
-			<h1>Most viewed groups</h1>
-			<div class="most-viewed">
-				<table class="most-viewed-table">
-					<tr><td>Group 1</td><td>Views</td></tr>
-					<tr><td>Group 2</td><td>Views</td></tr>
-					<tr><td>Group 3</td><td>Views</td></tr>
-					<tr><td>Group 4</td><td>Views</td></tr>
-					<tr><td>Group 5</td><td>Views</td></tr>
+			   You can also access the page through the url<br>
+			   <b>https://os-compare.com/groups.php?view-group=(name)</b></p>
+			<form action="group.php">
+				<table class="create-table">
+					<tr><td>Group Name:</td></tr>
+					<tr><td><input type="text" class="text-box" name="view-group"></td></tr>
+					<tr><td><br><button>View Group</button></td></tr>
 				</table>
-			</div>
+			</form>
 		</div>
 	</div>
 </body>

@@ -1,0 +1,245 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"connect_error",
+				"mysqli_connect_error"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"text-",
+				"text-underline-position"
+			],
+			[
+				"b",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 203.0,
+		"last_filter": "Package Control: Ins",
+		"selected_items":
+		[
+			[
+				"Package Control: Ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 179.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/stats/index.php",
+		"/C/xampp/htdocs/stats/desiredlevels.json",
+		"/C/xampp/htdocs/stats/rifmeklevels.json",
+		"/C/xampp/htdocs/stats/dreamlevels.json",
+		"/C/xampp/htdocs/stats/statsv2/index.php",
+		"/C/Users/ashle/Desktop/Coding/Websites/osrs stats/index.php",
+		"/C/xampp/htdocs/stats/levels.json",
+		"/C/Users/ashle/Desktop/Coding/C#/server.cs",
+		"/C/Users/ashle/Desktop/Coding/Websites/info/index.html",
+		"/C/Users/ashle/Desktop/Coding/Websites/info/banner2-fullsize.jpg",
+		"/C/xampp/htdocs/crabisland/scorehandler.php",
+		"/C/xampp/htdocs/scorehandler.php",
+		"/C/Program Files (x86)/Steam/steamapps/common/Counter-Strike Source/cstrike/materials/Silkroad/Ground/moving_lava2.vmt",
+		"/C/Program Files (x86)/Steam/steamapps/common/Counter-Strike Source/cstrike/materials/models/trees/trees_sosna_low.vmt",
+		"/C/Program Files (x86)/Steam/steamapps/common/Counter-Strike Source/cstrike/materials/models/trees/trees_sosna_red_low.vmt",
+		"/C/Program Files (x86)/Steam/steamapps/common/Counter-Strike Source/cstrike/materials/models/trees/trees_sosna_sux.vmt",
+		"/C/Program Files (x86)/Steam/steamapps/common/Counter-Strike Source/cstrike/materials/models/trees/trees_sosna_sux_low.vmt",
+		"/C/Program Files (x86)/Steam/steamapps/common/Counter-Strike Source/cstrike/materials/models/trees/trees_bark_sosna_02.vmt",
+		"/C/Program Files (x86)/Steam/steamapps/common/Counter-Strike Source/cstrike/materials/models/trees/trees_sosna.vmt",
+		"/C/Program Files (x86)/Steam/steamapps/common/Counter-Strike Source/cstrike/materials/models/trees/trees_bark_sosna_01.vmt",
+		"/C/Users/ashle/Desktop/Coding/Websites/balding website/index.html",
+		"/C/Users/ashle/Desktop/Coding/Websites/balding website/index-styles.css",
+		"/C/Users/ashle/Desktop/Coding/Websites/position testing/page1.html",
+		"/C/Users/ashle/AppData/Local/Temp/Rar$DIa12196.2929/index.php",
+		"/C/Users/ashle/Desktop/Coding/Websites/balding website/styles.css",
+		"/C/Program Files (x86)/Steam/steamapps/common/Counter-Strike Source/cstrike/materials/bhop/animeraingirl.vmt",
+		"/C/Users/ashle/Desktop/gamemenu.res",
+		"/C/Users/ashle/Desktop/p5/game/index.html",
+		"/C/Users/ashle/Desktop/p5/game/player.js",
+		"/C/Users/ashle/Desktop/p5/game/obstacle.js",
+		"/C/Users/ashle/Desktop/Coding/Unity Projects/2DCityBuilderV2/Assets/Scripts/Game/TileBehaviour.cs",
+		"/C/Users/ashle/Desktop/Coding/Unity Projects/2DCityBuilderV2/Assets/Scripts/Map/MapGenerator.cs",
+		"/C/Users/ashle/Desktop/p5/game/sketch.js",
+		"/C/Program Files (x86)/Steam/steamapps/common/Counter-Strike Source/cstrike/resource/GameMenu.res",
+		"/C/Users/ashle/Desktop/p5/empty-example/index.html",
+		"/C/Users/ashle/Desktop/p5/empty-example/obstacle.js",
+		"/C/Users/ashle/Desktop/p5/empty-example/player.js",
+		"/C/Users/ashle/Desktop/p5/empty-example/sketch.js",
+		"/C/Program Files (x86)/Steam/steamapps/common/Counter-Strike Source/cstrike/addons/source-python/plugins/first/first.py",
+		"/C/Users/ashle/Documents/websites/paypalipn/index.html",
+		"/C/Users/ashle/source/repos/SomeGame/SomeGame/Content/health.spritefont",
+		"/C/Users/ashle/source/repos/DreamDiscordBot/DreamDiscordBot/SystemLang/alerts.json",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/ashle/Desktop/startpage/index.html",
+		"/C/Users/ashle/Documents/HTML/Company Website/index.php",
+		"/C/Users/ashle/Documents/HTML/Company Website/styles.css",
+		"/C/Users/ashle/Desktop/gamehack.cpp",
+		"/C/Program Files (x86)/Steam/steamapps/common/Counter-Strike Source/cstrike/addons/sourcemod/scripting/basetriggers.sp",
+		"/C/Program Files (x86)/Steam/steamapps/common/Counter-Strike Source/cstrike/addons/sourcemod/scripting/adminmenu/dynamicmenu.sp",
+		"/C/Program Files (x86)/Steam/steamapps/common/Counter-Strike Source/cstrike/addons/sourcemod/scripting/testsuite/sqltest.sp",
+		"/C/Program Files (x86)/Steam/steamapps/common/Counter-Strike Source/cstrike/addons/sourcemod/plugins/bTimes-chatprocessor.smx",
+		"/C/Program Files (x86)/Steam/steamapps/common/Counter-Strike Source/cstrike/materials/bhop/geo2.vmt",
+		"/C/Program Files (x86)/Steam/steamapps/common/Counter-Strike Source/cstrike/materials/bhop/geo1.vmt",
+		"/C/Users/ashle/Pictures/vtf/geo1.vmt",
+		"/C/Users/ashle/Documents/C#/random.cs",
+		"/C/Users/ashle/Documents/LUA/helloworld.lua",
+		"/C/Users/ashle/Documents/LUA/gamemode/dream/init.lua",
+		"/C/Users/ashle/Documents/LUA/gamemode/dream/shared.lua",
+		"/C/Users/ashle/Documents/C#/backforward.cs",
+		"/C/Users/ashle/Documents/C#/doubledice.cs"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

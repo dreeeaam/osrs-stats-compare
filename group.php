@@ -7,39 +7,67 @@
 			$json_filename = "groups/" . $group_name . ".json";
 			$json_data = file_get_contents($json_filename);
 			$group_data = json_decode($json_data, true);
+			// Skills file
+			$skills_file = file("skills.txt");
+			$total_skills = 24;		
+			// Player names
+			$player1 = file_get_contents("players/" . $group_data['player1'] . ".json");
+			$player1_data = json_decode($player1, true);
+			$player2 = file_get_contents("players/" . $group_data['player2'] . ".json");
+			$player2_data = json_decode($player2, true);
+			$player3 = file_get_contents("players/" . $group_data['player3'] . ".json");
+			$player3_data = json_decode($player3, true);
+			$player4 = file_get_contents("players/" . $group_data['player4'] . ".json");
+			$player4_data = json_decode($player4, true);
 		?>
 	</head>
 
 	<body>
-		<h1 id="group-name"><?php echo $group_data['name']; ?></h1>
-		<div class="players-wrapper">
-			<?php for($x = 1; $x < count($group_data); $x++) { 
-				$player = "player" . $x;
-				// Get players json data
-				$player_json_filename = "players/" . $group_data[$player] . ".json";
-				$player_json_data = file_get_contents($player_json_filename);
-				$player_data = json_decode($player_json_data, true);
-			?>
-			<div class="player">
-				<h2><?php echo $group_data[$player]; ?></h2>
-				<table class="player-table">
+		<div class="main-content">
+			<div class="title-div">
+				<h1 class="title">OS-COMPARE</h1>
+				<h1 id="group-name"><?php echo $group_data['name']; ?></h1>
+			</div><br><br>
+			<div class="players-wrapper">
+				<table class="stat-table">
+					<!-- Headers, Skills and player names !-->
 					<tr>
-						<td><h3>Skill</h3></td>
-						<td><h3>Rank</h3></td>
-						<td><h3>Level</h3></td>
-						<td><h3>Experience</h3></td>
+						<td id="empty-cell"></td>
+						<?php for($x = 1; $x < count($group_data); $x++) { 
+							$player = "player" . $x;
+							// Get players json data
+							$player_json_filename = "players/" . $group_data[$player] . ".json";
+							$players[] = $group_data[$player];
+							$player_json_data = file_get_contents($player_json_filename);
+							$player_data = json_decode($player_json_data, true);
+						?>
+							<th colspan="2"><?php echo $group_data[$player]; ?></th>
+						<?php } ?>	
 					</tr>
-				<?php for($y = 0; $y < count($player_data); $y++) { ?>
-					<tr>
-						<td><?php echo $player_data[$y]['skill']; ?></td>
-						<td><?php echo $player_data[$y]['rank']; ?></td>
-						<td><?php echo $player_data[$y]['level']; ?></td>
-						<td><?php echo $player_data[$y]['experience']; ?></td>
+					<!-- Levels and experience sub headers !-->
+					<tr style="background-color: grey;">
+						<th>Skills</th>
+						<?php for($x = 0; $x < 4; $x++) { ?>
+							<th class="level">Level</th>
+							<th class="experience">Experience</th>
+						<?php } ?>
 					</tr>
-				<?php } ?>
+					<!-- Skills and levels !-->
+					<?php for($x = 0; $x < $total_skills; $x++) { ?>
+						<tr>
+							<td><?php echo $skills_file[$x]; ?></td>
+							<td><?php echo $player1_data[$x]['level']; ?></td>
+							<td><?php echo $player1_data[$x]['experience']; ?></td>
+							<td><?php echo $player2_data[$x]['level']; ?></td>
+							<td><?php echo $player2_data[$x]['experience']; ?></td>
+							<td><?php echo $player3_data[$x]['level']; ?></td>
+							<td><?php echo $player3_data[$x]['experience']; ?></td>
+							<td><?php echo $player4_data[$x]['level']; ?></td>
+							<td><?php echo $player4_data[$x]['experience']; ?></td>
+						</tr>
+					<?php } ?>
 				</table>
 			</div>
-			<?php } ?>
 		</div>
 	</body>
 </html>
