@@ -1,14 +1,19 @@
 html, body {
-	font-family: "Open Sans Light";
+	font-family: Open Sans;
+	background-color: #1e1e1e;
+	color: #eeeeee;
 }
 p {
 	font-size: 20px;
+}
+h1, h2 {
+	margin: 0;
 }
 h2 {
 	font-size: 40px;
 }
 .title {
-	color: #cce510;
+	color: #fbff11;
 	font-size: 60px;
 }
 .main-content {
@@ -25,7 +30,7 @@ h2 {
 
 .create-table {
 	width: 100%;
-	color: black;
+	color: #eeeeee;
 	font-size: 20px;
 }
 .text-box {
@@ -54,9 +59,14 @@ h2 {
 	font-size: 14px;
 	width: 25%;
 }
-.experience {
-	width: 125px;
+.levels, .experience {
+	text-align: right;
 }
-.level {
-	width: auto;
+.levels {
+	color: #11c114; 
+	width: 6%;
+}	
+.experience {
+	color: #ffb20c;
+	width: 17%;
 }

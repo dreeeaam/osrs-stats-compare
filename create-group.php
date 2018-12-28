@@ -21,13 +21,16 @@ $json_file_name = "groups/" . $group_name . ".json";
 $fp = fopen($json_file_name, 'w');
 fwrite($fp, $json_file);
 fclose($fp);
-// Add each player to the database
+
+// Removing the player json adder, so that we dont have to add a player json and get the stats straight from the website
+
+/* Add each player to the database
 for($x = 0; $x < count($players); $x++) {
 	// If the player did not create a group with all the players avaliable
 	if($players[$x] === "") { break; }
 	// Create json of player
 	createJson($players[$x]);
-}
+}*/
 
 header('Location: http://localhost/stats_compare/group.php?view-group=' . $group_name);
 
